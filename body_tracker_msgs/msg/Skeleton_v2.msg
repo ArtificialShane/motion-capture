@@ -1,0 +1,32 @@
+Header header 
+
+int32 body_id
+int32 tracking_status
+
+
+#Position of interesting joints
+
+geometry_msgs/Pose joint_position_head
+geometry_msgs/Pose joint_position_neck
+geometry_msgs/Pose joint_position_shoulder_center
+geometry_msgs/Pose joint_position_spine
+geometry_msgs/Pose joint_position_base # corresponds to the waist
+
+geometry_msgs/Pose joint_position_left_shoulder
+geometry_msgs/Pose joint_position_left_elbow
+geometry_msgs/Pose joint_position_left_wrist
+
+geometry_msgs/Pose joint_position_left_hip
+geometry_msgs/Pose joint_position_left_knee
+geometry_msgs/Pose joint_position_left_ankle
+
+geometry_msgs/Pose joint_position_right_shoulder
+geometry_msgs/Pose joint_position_right_elbow
+geometry_msgs/Pose joint_position_right_wrist
+
+geometry_msgs/Pose joint_position_right_hip
+geometry_msgs/Pose joint_position_right_knee
+geometry_msgs/Pose joint_position_right_ankle
+
+
+
